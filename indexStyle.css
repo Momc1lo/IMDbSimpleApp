@@ -1,0 +1,89 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 6px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #f6c800;
+}
+
+.active:hover {
+    background-color: #333;
+    color: white;
+}
+
+#movieDisplay {
+    width: 100%;
+    height: auto;
+}
+
+#movieBox {
+    background-color: #333;
+    float: left;
+    width: 30%;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    height: 480px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#movieBox:hover {
+    background-color: #f6c800;
+}
+
+.movie {
+    background-color: #f6c800;
+    margin: auto;
+    width: 50%;
+    height: 82%;
+    margin-top: 5%;
+    padding: 5%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.movie:hover {
+    background-color: white;
+}
+
+#searchMovie {
+    margin: 3.5% 2%;
+    height: 5%;
+    width: 70%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.formSearch {
+    text-align: center;
+}
+
+#searchMovieSubmit {
+    background-color: #333;
+    color: white;
+    border: 2px solid #333;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+#searchMovieSubmit:hover {
+    background-color: #f6c800;
+    color: #333;
+}

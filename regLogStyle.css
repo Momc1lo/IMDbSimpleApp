@@ -1,0 +1,28 @@
+body {
+    background-color: #202124;
+}
+
+#regLogForm {
+    background-color: #f6c800;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    margin-top: 18%;
+    padding: 20px;
+}
+
+input {
+    background-color: white;
+    color: #202124;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 32px;
+}
+
+input:hover {
+    background-color: #202124;
+    color: white;
+}
+

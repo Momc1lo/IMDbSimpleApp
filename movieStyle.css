@@ -1,0 +1,95 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 6px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #f6c800;
+}
+
+.active:hover {
+    background-color: #333;
+    color: white;
+}
+
+#container {
+    width: 100%;
+    color: white;
+}
+
+#dleft {
+    background-color: #f6c800;
+    width: 30%;
+    height: 450px;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    border: 1px solid #333;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#dright {
+    background-color: #f6c800;
+    width: 50%;
+    height: 450px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+
+#innerRight {
+    padding: 2% 5%;
+}
+
+#reviewFrom {
+    background-color: #333;
+    width: 40%;
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin-top: 5%;
+    padding: 2%;
+    text-align: center;
+}
+
+select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type=submit] {
+    background-color: white;
+    color: #202124;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 32px;
+    margin: 10px 0;
+}
+
+input[type=submit]:hover {
+    background-color: #f6c800;
+    color: white;
+}
+
+
